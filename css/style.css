@@ -1,0 +1,33 @@
+/* Universal Selector */
+/* *{
+    color: yellow;
+} */
+/* Element Selector */
+h2{
+    color: blue;
+}
+/* Class Selector */
+.heading{
+    color:black;
+}
+/* id Selector */
+#head{
+    color:brown;
+    font-size: 30;
+}
+
+#text{
+    /* Built-in Fontfamily (Default Fonts in CSS) */
+    /* font-family: 'Times New Roman', Times, serif; */
+
+    /* Imported based Google Font */
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline dotted red;
+    text-transform: uppercase;
+    line-height: 80px;
+
+}
