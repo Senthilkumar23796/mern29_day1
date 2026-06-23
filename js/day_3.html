@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day-3 JS</title>
+</head>
+<body>
+    <p id="para"></p>
+    <!-- <button onclick="setPara()">Click</button> -->
+    <button id="btn">Click</button>
+</body>
+<script>
+    // function setPara(){
+    //     let paraValue = document.getElementById("para")
+    // paraValue.innerHTML = "Hello";
+    // }
+    let paraValue = document.getElementById("para");
+    let btn = document.getElementById("btn");
+    // btn.onclick = ()=>{
+    //  paraValue.innerHTML = "Hello";   
+    // }
+
+    btn.addEventListener("click", function(){
+        paraValue.innerHTML = "Hello";
+    });
+</script>
+</html>
